@@ -113,7 +113,7 @@
 	var/loot = rand(1,2)
 	switch(loot)
 		if(1)
-			new /obj/item/bloodcrawl_bottle(src) //SKYRAT EDIT ORIGINAL : new /obj/item/mayhem(src)
+			new /obj/item/paper/crumpled/bloody/trollface //Vai tomar no cu skyrat filho da puta
 		if(2)
 			new /obj/item/soulscythe(src)
 
