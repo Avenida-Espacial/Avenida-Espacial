@@ -282,9 +282,8 @@
 	inhand_icon_state = "crusader"
 	flags_inv = HIDEJUMPSUIT
 
-/obj/clothing/head/hooded/astartes
+/obj/item/clothing/head/helmet/chaplain/astartes
 	name = "astartes helm"
 	desc = "PELO IMPERADOOR!"
 	icon = "modular_avenida/ravhelm/ravhelm.dmi
 	icon_state = "ravhelm"
-	hoodtype = /obj/item/clothing/head/hooded/chaplain_hood/leader/astartes
