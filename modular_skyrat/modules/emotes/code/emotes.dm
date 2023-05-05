@@ -522,3 +522,11 @@
 	emote_type = EMOTE_AUDIBLE
 	vary = TRUE
 	sound = 'sound/effects/glassbash.ogg'
+
+/datum/emote/living/fred
+	key = "fred"
+	key_third_person = "freds"
+	message = "É O FRED PORRA!"
+	emote_type = EMOTE_AUDIBLE
+	vary = TRUE
+	sound = 'modular_avenida/sons/fred.ogg'
