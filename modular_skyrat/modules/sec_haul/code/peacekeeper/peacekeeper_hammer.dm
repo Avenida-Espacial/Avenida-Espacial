@@ -8,7 +8,7 @@
 	lefthand_file = 'modular_skyrat/modules/sec_haul/icons/peacekeeper/baton/peacekeeper_baton_lefthand.dmi'
 	righthand_file = 'modular_skyrat/modules/sec_haul/icons/peacekeeper/baton/peacekeeper_baton_righthand.dmi'
 	slot_flags = ITEM_SLOT_BELT
-	force = 15
+	force = 35
 	throwforce = 10
 	w_class = WEIGHT_CLASS_NORMAL
 	attack_verb_continuous = list("whacks","breaches","bulldozes","flings","thwachs")
@@ -24,7 +24,7 @@
 	/// The person breaching , initially us but we receive a signal with another one
 	var/breacher = null
 	/// the amount that the force is multiplied by , that is then applied as damage to the door.
-	var/breaching_multipler = 2.5
+	var/breaching_multipler = 35.5
 
 /obj/item/melee/hammer/afterattack(atom/target, mob/user, proximity)
 	. = ..()
