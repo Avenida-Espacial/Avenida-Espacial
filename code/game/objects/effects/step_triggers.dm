@@ -46,7 +46,6 @@
 		to_chat(M, span_info("[message]"))
 		if(once)
 			qdel(src)
-
 /* Tosses things in a certain direction */
 /obj/effect/step_trigger/thrower
 	var/direction = SOUTH // the direction of throw

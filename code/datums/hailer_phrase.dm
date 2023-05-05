@@ -77,3 +77,16 @@
 /datum/hailer_phrase/dredd
 	phrase_text = "I am, the LAW!"
 	phrase_sound = "dredd"
+
+//BOPE
+/datum/hailer_phrase/dedo
+	phrase_text = "Senta o dedo nessa porra."
+	phrase_sound = 'modular_avenida/sons/bope/senta-o-dedo.ogg'
+
+/datum/hailer_phrase/papa
+	phrase_text = "Bota na conta do papa"
+	phrase_sound = 'modular_avenida/sons/bope/papa.ogg'
+
+/datum/hailer_phrase/caveira
+	phrase_text = "Caveira, Meu Capitão."
+	phrase_sound = 'modular_avenida/sons/bope/caveira.ogg'
