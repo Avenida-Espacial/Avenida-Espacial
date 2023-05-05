@@ -273,3 +273,18 @@
 	inhand_icon_state = "shrinehand"
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS
 	flags_inv = HIDEJUMPSUIT
+
+/obj/item/clothing/suit/chaplainsuit/armor/crusader/astartes
+	name = "astartes suit"
+	desc = "PELO IMPERADOOOOR!"
+	icon_state = "ravsuit"
+	body_parts_covered = CHEST|GROIN|LEGS|ARMS
+	inhand_icon_state = "crusader"
+	flags_inv = HIDEJUMPSUIT
+
+/obj/clothing/head/hooded/astartes
+	name = "astartes helm"
+	desc = "PELO IMPERADOOR!"
+	icon = "modular_avenida/ravhelm/ravhelm.dmi
+	icon_state = "ravhelm"
+	hoodtype = /obj/item/clothing/head/hooded/chaplain_hood/leader/astartes
